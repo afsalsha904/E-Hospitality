@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="text-center">
+        <h2 class="text-warning">Payment Canceled</h2>
+        <p>You have canceled the payment process. If this was an error, you can return to your appointments and try again.</p>
+        <a href="{% url 'view_appointment_history' %}" class="btn btn-primary mt-3">Back to Appointment History</a>
+    </div>
+</div>
+{% endblock %}
