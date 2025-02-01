@@ -2,10 +2,10 @@
 {% if user.user_type == '1' %}
 <div class="header">
     <div class="header-left" style="padding-top: 20px;">
-       <a href="{% url 'admin_home' %}">
+       <a href="{% url 'index' %}">
        <img src="{% static 'assets/img/logo.png'%}" width="100" height="100">
        </a>
-       <strong>HMS</strong>
+       <strong>H M S</strong>
     </div>
    
     <div class="top-nav-search" style="padding-top: 20px;color: blue;">
@@ -41,10 +41,10 @@
  {% elif user.user_type == '2'  %}
  <div class="header">
    <div class="header-left" style="padding-top: 20px;">
-      <a href="{% url 'doctor_home' %}">
+      <a href="{% url 'index' %}">
       <img src="{% static 'assets/img/logo.png'%}" width="100" height="100">
       </a>
-      <strong>HMS</strong>
+      <strong>H M S</strong>
    </div>
   
    <div class="top-nav-search" style="padding-top: 20px;color: blue;">
@@ -79,10 +79,10 @@
 {% else %}
 <div class="header">
    <div class="header-left" style="padding-top: 20px;">
-      <a href="{% url 'doctor_home' %}">
+      <a href="{% url 'index' %}">
       <img src="{% static 'assets/img/logo.png'%}" width="100" height="100">
       </a>
-      <strong>HMS</strong>
+      <strong>H M S</strong>
    </div>
   
    <div class="top-nav-search" style="padding-top: 20px;color: blue;">
